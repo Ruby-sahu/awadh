@@ -41,17 +41,17 @@ function Footer() {
     <div className=''>
     <h4 className='font-semibold'>Contact Us</h4>
     <ul className='flex flex-col gap-2 mt-3 md:gap-4 md:mt-8'>
-         <li><div className='flex items-center gap-2 text-sm font-medium'><FiPhoneCall size={16} className='mt-1.5 text-secondary-bg w-4' /><Link href='#' className='mt-1 transition-all ease-in-out delay-200 hover:text-secondary-bg'>1234567891</Link></div></li>
-         <li><div className='flex items-center gap-2 text-sm font-medium'><IoMdMailOpen size={16} className='mt-1.5 text-secondary-bg w-4' /><Link href='#' className='mt-2 transition-all ease-in-out delay-200 hover:text-secondary-bg'>abc@gmail.com</Link></div></li>
+         <li><div className='flex items-center gap-2 text-sm font-medium'><FiPhoneCall size={14} className='mt-1.5 text-secondary-bg w-4' /><Link href='tel:1234567891' className='mt-1 transition-all ease-in-out delay-200 hover:text-secondary-bg'>1234567891</Link></div></li>
+         <li><div className='flex items-center gap-2 text-sm font-medium'><IoMdMailOpen size={16} className='mt-1.5 text-secondary-bg w-4' /><Link href='mailto:abc@gmail.com' className='mt-2 transition-all ease-in-out delay-200 hover:text-secondary-bg'>abc@gmail.com</Link></div></li>
          <li><div className='flex items-start gap-2 text-sm font-medium'><FaLocationDot size={16} className='mt-1.5 text-secondary-bg md:w-[33px] w-[29px]' /><p className='mt-1 capitalize transition-all ease-in-out delay-200 hover:text-secondary-bg'> NH3, Mumbai - Agra Rd, Near The Mapple Wood, Pigdamber, Rau, Madhya Pradesh 453331 </p></div></li>
     </ul>
     </div>
     <div className=''>
     <h4 className='font-semibold'>Social Media</h4>
     <ul className='flex gap-4 mt-3 md:mt-8'>
-      <li><Link href='#' className='block p-2 text-white ease-in-out delay-200 rounded-full bg-secondary-bg transition-transform [transform:rotateY(360deg)_scale(1.1)] duration-500 hover:[transform:rotateY(0deg)_scale(1)]'><FaInstagram size={16} className='text-white' /></Link></li>
-      <li><Link href='#' className='block p-2 text-white ease-in-out delay-200 rounded-full bg-secondary-bg transition-transform [transform:rotateY(360deg)_scale(1.1)] duration-500 hover:[transform:rotateY(0deg)_scale(1)]'><FaFacebook size={16} className='transition-all ease-in-out delay-200' /></Link></li>
-      <li><Link href='#' className='block p-2 text-white ease-in-out delay-200 rounded-full bg-secondary-bg transition-transform [transform:rotateY(360deg)_scale(1.1)] duration-500 hover:[transform:rotateY(0deg)_scale(1)]'><FaYoutube size={16} className='transition-all ease-in-out delay-200' /></Link></li>
+      <li><Link href='https://www.instagram.com/yourprofile' className='block p-2 text-white ease-in-out delay-200 rounded-full bg-secondary-bg transition-transform [transform:rotateY(360deg)_scale(1.1)] duration-500 hover:[transform:rotateY(0deg)_scale(1)]'><FaInstagram size={16} className='text-white' /></Link></li>
+      <li><Link href='https://www.facebook.com/yourpage' className='block p-2 text-white ease-in-out delay-200 rounded-full bg-secondary-bg transition-transform [transform:rotateY(360deg)_scale(1.1)] duration-500 hover:[transform:rotateY(0deg)_scale(1)]'><FaFacebook size={16} className='transition-all ease-in-out delay-200' /></Link></li>
+      <li><Link href='https://www.youtube.com/in/yourprofile' className='block p-2 text-white ease-in-out delay-200 rounded-full bg-secondary-bg transition-transform [transform:rotateY(360deg)_scale(1.1)] duration-500 hover:[transform:rotateY(0deg)_scale(1)]'><FaYoutube size={16} className='transition-all ease-in-out delay-200' /></Link></li>
     </ul> 
     </div>
     </div>

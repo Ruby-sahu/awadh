@@ -23,8 +23,8 @@ function ContactUs() {
     </div>
     <div>
         <div className='flex items-start gap-3 '><FaLocationDot size={20} className='mt-1.5 text-secondary-bg' />  <p className='text-sm capitalize md:text-base'> NH3, Mumbai - Agra Rd, Near The Mapple Wood, Pigdamber, Rau, Madhya Pradesh 453331 </p></div>
-        <div className='flex items-start gap-3 mt-2 md:mt-4'><FiPhoneCall size={20} className=' text-secondary-bg' />  <Link href='' className='text-sm md:text-base'> 1234567891</Link></div>
-        <div className='flex items-start gap-3 mt-2 md:mt-4'><SiSwiggy size={20} className=' text-secondary-bg' />  <Link className='text-sm md:text-base' href='https://www.swiggy.com/city/indore/avadh-restaurant-rau-&-rajendra-nagar-rau-rest1050726?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder'> Place an order on swiggy</Link></div>
+        <div className='flex items-start gap-3 mt-2 md:mt-4'><FiPhoneCall size={16} className='mt-1  text-secondary-bg' /><Link href='tel:1234567891' className='text-sm md:text-base'>1234567891</Link></div>
+        <div className='flex items-start gap-3 mt-2 md:mt-4'><SiSwiggy size={20} className=' text-secondary-bg' /> <Link className='text-sm md:text-base' href='https://www.swiggy.com/city/indore/avadh-restaurant-rau-&-rajendra-nagar-rau-rest1050726?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder'> Place an order on swiggy</Link></div>
         <div className='flex items-start gap-3 mt-2 md:mt-4'><TbClock12 size={20} className=' text-secondary-bg' />  <Link href='#' className='text-sm md:text-base'> Timing: Monday - saturday (12 pm - 2 am)</Link></div>
     </div>
       

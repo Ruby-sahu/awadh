@@ -8,6 +8,12 @@ html {
   scroll-behavior: smooth;
   scroll-padding: 100px;
 }
+
+@media screen and (max-width: 768px){
+  html {
+  scroll-padding: 50px;
+  }
+}
 /* body {
   background: var(--background);
   color: var(--foreground);

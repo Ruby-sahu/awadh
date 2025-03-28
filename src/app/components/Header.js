@@ -24,6 +24,7 @@ function Header() {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false);
     }
   };
 
@@ -38,6 +39,7 @@ function Header() {
   
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
+      
     }, []);
   
  
