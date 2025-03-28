@@ -26,7 +26,7 @@ function Footer() {
         <Image src={logo} className="w-20 md:w-32" alt='logo' />
         <h4 className='mt-4 text-xl font-bold md:text-2xl md:mt-8'>About Us</h4>
         <p className='mt-2 text-sm md:mt-4'>
-        Nestled amidst nature, Avadh is a haven of peace that blends luxury and comfort. Whether you are looking for a relaxing holiday, an adventurous vacation or a great dining experience, we offer you an unforgettable vacation.
+        Nestled amidst nature, Awadh is a haven of peace that blends luxury and comfort. Whether you are looking for a relaxing holiday, an adventurous vacation or a great dining experience, we offer you an unforgettable vacation.
         </p>
     </div>
     <div className='pl-0 md:pl-8'>
