@@ -48,7 +48,7 @@ function Menu() {
         {foodItems.map((food) => (
           <SwiperSlide key={food.id} className="flex justify-center">
             <div className="overflow-hidden bg-white rounded-lg shadow-lg">
-              <Image src={food.image} alt={food.name} className="w-full h-24 md:h-40" />
+              <Image src={food.image} alt={food.name} className="w-full h-48 md:h-40 object-fit-cover" />
               <div className="py-2 text-center bg-secondary-bg ">
                 <h2 className="text-sm font-semibold text-white">{food.name}</h2>
               </div>
